@@ -1,0 +1,22 @@
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+.comming-soon{
+  min-height: 100vh;
+}
+
+/* -------- DESKTOP RESPONSIVE CSS -------- */
+@media screen and (min-width: 850px){
+  .mobile-img{
+    display: none;  
+  }  
+}
+
+/* -------- MOBILE RESPONSIVE CSS --------  */
+@media screen and (max-width: 850px){
+  .desk-img{
+    display: none;  
+  }
+}
